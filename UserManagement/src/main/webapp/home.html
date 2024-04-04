@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link href="css/bootstrap.css" rel="stylesheet">
+<style>
+	#frm{
+		width: 500px;
+		margin: auto;
+		margin-top: 100px;
+	}
+	marquee{
+		margin-top:10px ;
+	}
+</style>
+</head>
+<body class="container-fluid">
+	<marquee><h2 class="text-primary">Register Here...</h2></marquee>
+	
+<form action="register" method="post" class="form card" id="frm">
+	
+	<h2 class="bg-danger text-white align-center card-header text-center">Registration From</h2>
+	<table class="table table-hover">
+		<tr>
+			<td>Name</td>
+			<td><input  type="text" name="userName" placeholder="Please enter your name" > </td>
+		</tr>
+		<tr>
+			<td>Email</td>
+			<td><input  type="email" name="email" placeholder="Please enter your email" > </td>
+		</tr>
+		<tr>
+			<td>Mobile No</td>
+			<td><input  type="text"  name="mobile" placeholder="Please enter phone No" > </td>
+		</tr>
+		<tr>
+			<td>DOB</td>
+			<td><input  type="date" name="dob" max="2005-03-31" > </td>
+		</tr>
+		<tr>
+			<td>Gender</td>
+			<td><input type="radio" name="gender" value="male">Male &nbsp;
+			    <input type="radio" name="gender" value="female">Female
+			</td>
+		</tr>
+		<tr>
+			<td>City</td>
+			<td><select name="city"> 
+				<option value="chennai" >Chennai</option>
+				<option value="banglore">Banglore</option>
+				<option value="mumbai">Mumbai</option>
+				<option value="hyderabad">hyderabad</option>
+				<option value="delhi" selected>Delhi</option>
+			</select></td>
+		</tr>
+		
+		
+		<tr>
+            <td> Project Name</td>
+            <td><input type="text" name="projectname"  placeholder="Enter your project Name"></td>
+        </tr>
+
+		<tr>
+            <td >Start Date</td>
+            <td ><input type="date" name="Sdate"></td>
+        </tr>
+        <tr>
+            <td >End Date</td>
+            <td ><input type="date" name="Edate" ></td>
+        </tr>
+        
+		
+		
+		<tr class="card-footer">
+		<td><button type="submit" class="btn btn-outline-success">Register</button></td>
+		<td><button type="reset" class="btn btn-outline-danger">Clear</button></td>
+		</tr>
+	</table>
+	<button class="btn btn-outline-success d-block"><a href="showdata">Show Users</a></button>
+</form>
+</body>
+</html>
