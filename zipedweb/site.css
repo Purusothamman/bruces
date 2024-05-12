@@ -1,0 +1,122 @@
+html{
+    background-color: rgb(255, 255, 255);
+}
+body{
+    bACKGROUND-color:"tranperent";
+}
+a{box-sizing: border-box;
+    padding: 10px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav_menu{
+    background-color: #333;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+}
+.nav_menu a{
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav_menu a:hover{
+    background-color: #2dee0b;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+}
+
+h1{color: rgb(0, 0, 0);
+    text-align: center;
+}
+h1::first-letter{
+    color:red;
+    text-decoration: underline;
+}
+
+p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+div.style div {
+    width:33%;  
+    float:left;
+  }
+  .zoom{
+    height: 300px;
+    overflow: hidden;
+    border-radius: 16px;
+  }
+.zoom img{
+    object-fit: cover;
+    transition: transform 0.8s;
+    height: 100%;
+}
+.zoom:hover img{
+    transform: scale(1.5);
+}
+.zoom1{
+    height: 200px;
+    overflow: hidden;
+    border-radius: 16px;
+  }
+.zoom1 img{
+    object-fit: cover;
+    transition: transform 0.8s;
+    height: 100%;
+}
+.zoom1:hover img{
+    transform: scale(1.5);
+}
+.zoom2{
+    height: 200px;
+    overflow: hidden;
+    border-radius: 16px;
+  }
+.zoom2 img{
+    object-fit: cover;
+    transition: transform 0.8s;
+    height: 100%;
+}
+.zoom2:hover img{
+    transform: scale(1.5);
+}
+.zoom3{
+    height: 200px;
+    overflow: hidden;
+    border-radius: 16px;
+  }
+.zoom3 img{
+    object-fit: cover;
+    transition: transform 0.8s;
+    height: 100%;
+}
+.zoom3:hover img{
+    transform: scale(1.5);
+}
+div.inner{
+  width:400px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-attachment: scroll;
+}
+p.flower{
+    color: #ffffff;
+    text-align: left;
+    line-height: 200%;
+    font-size: medium;
+    font-style: italic;
+    font-family: cursive;
+}
+.set{
+    background:url("m.jpg");
+   background-size: cover;
+   background-position: center;
+   overflow: hidden;
+}
